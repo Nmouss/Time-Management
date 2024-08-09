@@ -21,7 +21,7 @@ font = ImageFont.load_default()
 
 
 # FOR OBJECT DETECTION
-model = tf.lite.Interpreter(model_path="/home/nmouss/Desktop/PROJECTS/PHONE_DETECTION_MODEL/model.tflite") # CHANGE THIS WHERE THE TF.LITE MODEL IS
+model = tf.lite.Interpreter(model_path="/PATH/TO/YOUR/DIRECTORY/model.tflite") # CHANGE THIS WHERE THE TF.LITE MODEL IS
 model.allocate_tensors()  # This loads the model and its tensors
 
 input_details = model.get_input_details()  # Gets data about the tensor
