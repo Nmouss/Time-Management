@@ -50,7 +50,7 @@ class run_model:
                 print("Error: cannot read frame")
                 break
             
-            # Resize the frame to 224x224
+            # Resize the frame to 224x224 since thats the model input
             frame_resized = cv2.resize(frame, (224, 224))
             
             cv2.imshow("Camera - 224x224", frame_resized)
