@@ -13,6 +13,7 @@ Materials needed: 1x OLED display, 3x Buttons, 1x RGB LED, 1x Breadboard, Minimu
 
 # Step 1
 
+Install packages
 - pip3 install tensorflow
 - pip3 install Adafruit-SSD1306
 - pip3 install adafruit-blinka
