@@ -8,5 +8,5 @@ The idea behind this project was to help me maintain focus by adding a layer of 
 
 # Step 1
 
--pip install tensorflow
+- pip install tensorflow
 
