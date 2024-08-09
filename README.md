@@ -20,7 +20,7 @@ Materials needed
 
 # Step 1
 
-Install packages
+Install packages in terminal
 - pip3 install tensorflow
 - pip3 install Adafruit-SSD1306
 - pip3 install adafruit-blinka
