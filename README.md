@@ -20,7 +20,7 @@ Materials needed
 
 ## Step 1
 
-Install packages in terminal
+Open terminal on your raspberry pi (64 bit) and Install packages in terminal. Copy and paste each line.
 
 ```
 pip3 install tensorflow
