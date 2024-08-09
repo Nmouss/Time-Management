@@ -35,7 +35,7 @@ Wire the system on a bread board with the following connections
 
 ## Step 3 
 
-Create a directory on your computer and download the files and move to the directory. Then run the main file.
+Create a directory on your computer and download the files and move to the directory. Then run the main.py file.
 
 ## Background
 
