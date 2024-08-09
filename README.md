@@ -11,7 +11,8 @@ Materials needed
 - 3x Buttons 
 - 1x RGB LED 
 - 1x Breadboard
-- Minimum 12x male-female jumper cables 
+- Minimum 12x male-female jumper cables
+- 1x camera (USB or Waveshare IMX219 Camera Module, I personally used a Logitech C920)
 - A Raspberry Pi that can operate 64 bits (For tensorflow)
 
 ![IMG_8810](https://github.com/user-attachments/assets/ea6aba26-966b-43eb-ac72-860d29def78d)
