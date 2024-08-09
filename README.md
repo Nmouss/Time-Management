@@ -4,7 +4,7 @@ This project is designed to enhance focus by preventing phone use during dedicat
 
 The idea behind this project was to help me maintain focus by adding a layer of accountability, which is why I built this prototype. The system uses green, red, yellow, and blue lights to indicate different statuses: whether the session is over, the phone is detected, the session is in progress, or the session needs to be initiated. While the current setup is on a breadboard, I plan to upgrade it to a circuit board in the future.
 
-# How can I use it?
+## How can I use it?
 
 Materials needed
 - 1x OLED display
@@ -21,10 +21,12 @@ Materials needed
 # Step 1
 
 Install packages in terminal
-- pip3 install tensorflow
-- pip3 install Adafruit-SSD1306
-- pip3 install adafruit-blinka
-- pip3 install Pillow
+'''
+pip3 install tensorflow
+pip3 install Adafruit-SSD1306
+pip3 install adafruit-blinka
+pip3 install Pillow
+'''
 
 # Step 2
 Wire the system on a bread board with the following connections
