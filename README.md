@@ -8,7 +8,7 @@ The idea behind this project was to help me maintain focus by adding a layer of 
 
 Materials needed: 1x OLED display, 3x Buttons, 1x RGB LED, 1x Breadboard, Minimum 12x male-female jumper cables, A Raspberry Pi that can operate 64 bits (For tensorflow)
 
-![IMG_8810](https://github.com/user-attachments/assets/f8a2b308-d19b-423c-82fc-94e81df8d08d)
+![IMG_8810](https://github.com/user-attachments/assets/ea6aba26-966b-43eb-ac72-860d29def78d)
 
 
 # Step 1
