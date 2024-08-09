@@ -18,21 +18,24 @@ Materials needed
 ![IMG_8810](https://github.com/user-attachments/assets/ea6aba26-966b-43eb-ac72-860d29def78d)
 
 
-# Step 1
+## Step 1
 
 Install packages in terminal
+
 '''
+
 pip3 install tensorflow
 pip3 install Adafruit-SSD1306
 pip3 install adafruit-blinka
 pip3 install Pillow
+
 '''
 
-# Step 2
+## Step 2
 Wire the system on a bread board with the following connections
 
 
-# Background
+## Background
 
 When I first began this project it originally started out as a basic feature where you add time and start it, then the countdown begun. 
 
