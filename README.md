@@ -4,7 +4,7 @@ This project is designed to enhance focus by preventing phone use during dedicat
 
 The idea behind this project was to help me maintain focus by adding a layer of accountability, which is why I built this prototype. The system uses green, red, yellow, and blue lights to indicate different statuses: whether the session is over, the phone is detected, the session is in progress, or the session needs to be initiated. While the current setup is on a breadboard, I plan to upgrade it to a circuit board in the future.
 
-## How can I use it?
+# How can I use it?
 
 Materials needed
 - 1x OLED display
@@ -33,6 +33,9 @@ pip3 install Pillow
 ## Step 2
 Wire the system on a bread board with the following connections
 
+## Step 3 
+
+Create a directory on your computer and download the files and move to the directory. Then run the main file.
 
 ## Background
 
