@@ -20,7 +20,7 @@ Materials needed
 
 ## Step 1
 
-Open terminal on your raspberry pi (64 bit) and Install packages in terminal. Copy and paste each line.
+Open terminal on your raspberry pi (64 bit) and Install packages in terminal. Copy and paste each line. 
 
 ```
 pip3 install tensorflow
@@ -28,6 +28,7 @@ pip3 install Adafruit-SSD1306
 pip3 install adafruit-blinka
 pip3 install Pillow
 ```
+* Make sure you create a vm before installing packages unless you want them system wide.
 
 ## Step 2
 Wire the system on a bread board with the following connections
