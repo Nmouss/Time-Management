@@ -25,6 +25,10 @@ Install packages
 - pip3 install adafruit-blinka
 - pip3 install Pillow
 
+# Step 2
+Wire the system on a bread board with the following connections
+
+
 # Background
 
 When I first began this project it originally started out as a basic feature where you add time and start it, then the countdown begun. 
