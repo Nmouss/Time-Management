@@ -22,14 +22,10 @@ Materials needed
 
 Install packages in terminal
 
-"""
-
-pip3 install tensorflow
+< pip3 install tensorflow
 pip3 install Adafruit-SSD1306
 pip3 install adafruit-blinka
 pip3 install Pillow
-
-"""
 
 ## Step 2
 Wire the system on a bread board with the following connections
