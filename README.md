@@ -33,7 +33,9 @@ pip3 install Pillow
 ## Step 2
 
 Wire the system on a bread board with the following connections
-![1723342955491-3dfb0f2f-3d4a-442e-a2d7-54fe5c100c7cDocuments_1](https://github.com/user-attachments/assets/b3986f99-ba05-42ef-8a74-3757b76a04a1)
+
+![image](https://github.com/user-attachments/assets/0549f27f-834c-4a5a-afdc-60422ac285a2)
+
 
 
 
