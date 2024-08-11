@@ -45,6 +45,6 @@ Create a directory on your computer and download the files and move to the direc
 
 ## Background
 
-When I first began this project it originally started out as a basic feature where you add time and start it, then the countdown begun. 
+When I first began this project it originally started out as a basic feature where you add time and start it, then the countdown begun. However some questions started to rise and I thought what if I added object detection so it makes me even more accountable because just putting your phone in a drawer can still be tempting, so I trained a tensorflow lite model on my phone with transfer learning with around 300 pictures. The model at times has some issues with detecting and confidence scores (Its just a prototype) however in the future I do want to update it and make it more reliable!
 
 
