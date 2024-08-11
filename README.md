@@ -31,7 +31,10 @@ pip3 install Pillow
 * Make sure you create a vm before installing packages unless you want them system wide.
 
 ## Step 2
+
 Wire the system on a bread board with the following connections
+[Scanned Documents.pdf](https://github.com/user-attachments/files/16571374/Scanned.Documents.pdf)
+
 
 ## Step 3 
 
