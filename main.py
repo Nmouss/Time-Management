@@ -176,7 +176,7 @@ while True:
                 draw.text((0, -2 + 0), b + "Right button +15 min", font=font, fill=1)
                 draw.text((0, 6 + 0), b + "Left button -15 min", font=font, fill=1)
                 draw.text((0, 15 + 0), b + "Middle button to start", font=font, fill=1)
-                draw.text((10, 23 + 0), b + f"Total time: {counter} mins" , font=font, fill=1)
+                draw.text((0, 23 + 0), b + f"Total time: {counter} mins" , font=font, fill=1)
                 disp.image(image)
                 disp.show()
         if Middle_button.is_pressed:
