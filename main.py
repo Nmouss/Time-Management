@@ -7,7 +7,7 @@ from board import SCL, SDA
 import time
 import threading
 import RPi.GPIO as GPIO
-from main import run_model as rm
+from object_detection import run_model as rm
 from LEDS import LEDS
 GPIO.cleanup()
 """setup oLED display"""
