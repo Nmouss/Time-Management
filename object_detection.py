@@ -37,7 +37,7 @@ class run_model:
     break_number = 0
     def sec(seconds):
         run_model.seconds = seconds
-        run_model.count = math.floor(seconds / 2700) # CHANGE THIS BACK TO SECONDS / 2700
+        run_model.count = math.floor(seconds / 2700) # ONE BREAK FOR EVERY 45 MINUTES, little easter egg lol
 
     def camera():
         vid = cv2.VideoCapture(0)
