@@ -35,6 +35,7 @@ font = ImageFont.load_default()
 draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
 while True:
+    time.sleep(1) 
     #draw.rectangle((0, 0, width, height), outline=0, fill=0) #this clears the box
     counter = 0
 
@@ -311,4 +312,3 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)  
     GPIO.cleanup()
     
-    time.sleep(1)
