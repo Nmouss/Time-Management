@@ -310,4 +310,5 @@ while True:
         
     draw.rectangle((0, 0, width, height), outline=0, fill=0)  
     GPIO.cleanup()
+    
     time.sleep(1)
