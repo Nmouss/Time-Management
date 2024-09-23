@@ -35,11 +35,6 @@ font = ImageFont.load_default()
 draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
 while True:
-    """setup buttons"""
-    Left_button = Button(17)
-    Middle_button = Button(27)
-    Right_button = Button(22)
-
     #draw.rectangle((0, 0, width, height), outline=0, fill=0) #this clears the box
     counter = 0
 
@@ -281,11 +276,10 @@ while True:
                     disp.show()
                     time.sleep(1)
 
-    countdown_thread = threading.Thread(target=countdown)
-    camera_inital = threading.Thread(target=rm.camera_inital)
-    camera = threading.Thread(target=rm.camera)
-
     if detection:
+        countdown_thread = threading.Thread(target=countdown)
+        camera_inital = threading.Thread(target=rm.camera_inital)
+        camera = threading.Thread(target=rm.camera)
         Left_button.close()
         Middle_button.close()
         Right_button.close()
@@ -293,11 +287,11 @@ while True:
         rm.camera_inital()
         rm.camera()
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        Left_button = Button(17) # need to redefine the buttons otherwise it will throw an error!
+        Middle_button = Button(27)
+        Right_button = Button(22)
     else:
         countdown()
-
-
-    # counter is the number of minutes
 
     # resets everything
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -309,9 +303,6 @@ while True:
     LEDS.red_off()
     LEDS.green_on()
     time.sleep(2)
-    Button(17).close()
-    Button(27).close()
-    Button(22).close()
     while True:
         if Button(22).is_pressed or  Button(27).is_pressed or Button(17).is_pressed:
             break
